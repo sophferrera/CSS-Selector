@@ -1,0 +1,69 @@
+body {
+  background-color: #BF3475;
+  font-family: 'Oswald', sans-serif;
+}
+
+.title {
+  font-family: 'Domine', serif;
+  display: flex;
+  justify-content: center;
+  background-color: #E998B0;
+  font-size: 2rem;
+}
+
+.title p:hover {
+  background-color: #FFE8FE;
+}
+
+a, a:visited {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #59252E;
+}
+
+.spiel p {
+  display: flex;
+  flex-flow: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 1vmin;
+  background-color: #B991A1;
+
+}
+
+.spiel p:hover {
+  text-shadow: 2px 2px #ED548A;
+}
+
+.spiel, .songs  > p:not(.sidenote), a {
+  font-size: 2.5vmin;
+}
+
+.sidenote {
+  font-size: 2vmin;
+}
+
+.songs a,p {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.pics {
+  display: flex;
+  justify-content: center;
+  padding: 1vmin
+}
+
+.portrait {
+    height: 30vh;
+    max-width: 100%;
+}
+
+.landscape {
+    height: 30vh;
+    max-height: 100%;
+}
